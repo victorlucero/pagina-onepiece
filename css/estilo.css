@@ -1,0 +1,316 @@
+#principal{
+	width: 900px;
+	height: 1050px;	
+	margin: auto;
+	/*background:linear-gradient(35deg, #F8C471,orange,#F8C471,orange);*/
+	background: transparent;	
+}
+
+body{
+	background-image: url(../img/q.jpg);
+	background-repeat: no-repeat;
+        background-size: 1500px 1100px;	
+}
+
+header{
+	width: 900px;
+	height: 100px;
+	border: 1px solid transparent;
+	background:linear-gradient(70deg, #D35400,#F39C12,#D35400,#F39C12);
+}
+
+#titulo{
+	text-align: center;
+	margin-top: 23px;
+	margin-bottom: 7px;
+}
+
+#logo{
+	width: 200px;
+	height: 100px;
+	border: 1px solid #000;
+	background-image: url(../img/logo1.jpg);
+	background-size: 200px 100px;
+	float: left;
+}
+
+.Areamenu{	
+	width: 505px;
+	height: 40px;
+	float: right;
+	margin-top: 0px;	
+}
+
+ul, ol{
+	list-style: none;
+}
+
+.menu li a{
+	background-color: #F39C12;
+	color: #000;
+	text-decoration: none;
+	font-family: 'Times New Roman';
+	font-weight: bold;
+	padding: 5px 25px;
+	display: block;
+}
+
+.menu li a:hover{
+	background-color: #FAD7A0;
+}
+
+.menu >li{
+	float: left;
+	margin-left: 5px;	
+}
+
+.menu li ul{
+	display: none;
+	position: absolute;
+	min-width: 120px;	
+}
+
+.menu li:hover > ul{
+	display:block;
+}
+
+#portada{
+	width: 400px;
+	height: 450px;
+	border: 3px solid #000;
+	float: left;
+	margin-top: 30px;
+	margin-left: 40px;
+	background-image: url(../img/port.jpg);
+	background-size: 400px 450px;
+}
+
+#imgAutor{
+	width: 250px;
+	height: 250px;
+	background-image: url(../img/oda.jpg);
+	background-size: 450px 250px;
+	background-repeat: no-repeat;	
+	background-position: center;
+	border-radius: 127px; /*mitad del width y del height, y le sumamos los pix del border para que no se vea cuadrado*/
+	border: 2px solid #000;
+}
+
+#autor{
+	width: 350px;
+	height: 450px;
+	border: 0px solid #000;
+	float: left;
+	margin-top: 30px;
+	margin-right: 40px;
+	text-align: center;
+}
+
+#imgSinopsis{
+	background-image: url(../img/sinopsis.jpg);
+	width: 750px;
+	height: 425px;
+	margin-top: 500px;
+	margin-right: 40px;
+	margin-left: 34px;	
+	background-size: 750px 430px;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*border: 1px solid black;*/
+}
+
+#parrafo{	
+	width: 680px;
+	height: 400px;
+	margin-left: 35px;
+	margin-top: 15px;
+	text-align: justify;	
+	font-family: monospace;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+	border: 1px solid transparent;
+}
+
+#parrafo h3{
+	text-align: center;
+	color: brown;	
+}
+
+#contenido{
+	width: 850px;
+	height: 800px;
+	border: 1px solid transparent;
+	margin-top: 15px;
+	margin-left: 25px;	
+}
+
+#indice{
+	width: 630px;
+	height: 850px;	
+	margin-top: 8px;
+	margin-left: 120px;
+	float: left;
+	text-align: center;	
+	font-size: 15px;	
+	font-style: italic;
+	font-weight: bold;
+	background-image: url(../img/pergamino2.png);
+	background-size: 650px 1000px;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+
+#indice li a{
+	text-decoration: none;
+	color: black;
+}
+
+#indice h2{
+	color:brown;
+}
+
+#fondoCap1{
+	width: 850px;
+	height: 900px;
+	/*border: 1px solid #000;*/
+	border-radius: 5px;	
+	margin-top: 15px;
+	margin-left: 25px;	
+	background-image: url(../img/papiro.png);
+	background-repeat: no-repeat;
+	background-size: 910px 950px;
+	background-position: center;
+}
+
+#fondoCap1 div{ /*division donde esta el texto*/
+	width: 780px;
+	height: 870px;
+	margin-left: 35px;
+	margin-top: 20px;
+	border: 1px solid transparent;
+}
+
+#imgCap1{
+	width: 200px;
+	height: 200px;	
+	background-image: url(../img/wano.png);
+	background-size: 200px 200px;
+	background-repeat: no-repeat;	
+	border-radius: 127px; /*mitad del width y del height, y le sumamos los pix del border para que no se vea cuadrado*/
+	border: 2px solid #000;	
+	float: right;
+	margin-right: 5px;
+}
+
+#cap2{
+	width: 750px;
+	height: 800px;
+	border: 1px solid #000;
+	margin-top: 15px;
+	margin-left: 25px;	
+}
+
+#imgCap2{
+	width: 200px;
+	height: 200px;	
+	background-image: url(../img/dres.jpg);
+	background-size: 200px 200px;
+	background-repeat: no-repeat;	
+	border-radius: 127px; /*mitad del width y del height, y le sumamos los pix del border para que no se vea cuadrado*/
+	border: 2px solid #000;	
+	float: right;
+	margin-right: 5px;
+}
+
+#imgCap3{
+	width: 200px;
+	height: 200px;	
+	background-image: url(../img/1.jpg);
+	background-size: 200px 200px;
+	background-repeat: no-repeat;	
+	border-radius: 127px; /*mitad del width y del height, y le sumamos los pix del border para que no se vea cuadrado*/
+	border: 2px solid #000;	
+	float: right;
+	margin-right: 5px;
+}
+
+.rojita{
+	color: red;
+}
+
+.centraTitulo{
+	color: brown;
+	text-align: center;
+	font-family: Georgia;
+}
+
+#fondoMas{
+	width: 850px;
+	height: 900px;
+	/*border: 1px solid #000;*/	
+	margin-top: 15px;
+	margin-left: 25px;	
+	background-image: url(../img/papiro.png);
+	background-repeat: no-repeat;
+	background-size: 910px 950px;
+	background-position: center;
+	border: 1px solid transparent;
+}
+
+#masL{
+	width: 750px;
+	height: 850px;
+	margin-left: 50px;
+	margin-top: 35px;
+	border: 1px solid transparent;	
+}
+
+#imgL1{
+	width: 120px;
+	height: 200px;
+	background-image: url(../img/L1.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 120px 200px;
+	border: 2px solid black;
+}
+
+#imgL2{
+	width: 120px;
+	height: 200px;
+	background-image: url(../img/L2.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 120px 200px;
+	border: 2px solid black;
+}
+
+#imgL3{
+	width: 120px;
+	height: 200px;
+	background-image: url(../img/L3.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 120px 200px;
+	border: 2px solid black;
+}
+
+#imgL4{
+	width: 120px;
+	height: 200px;
+	background-image: url(../img/L4.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 120px 200px;
+	border: 2px solid black;
+}
+
+#infoL{
+	text-align: justify;	
+	font-family: monospace;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+	border: 1px solid transparent;
+}
